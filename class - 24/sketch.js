@@ -1,4 +1,5 @@
 
+
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -17,9 +18,9 @@ function setup() {
 	createCanvas(800, 700);
 	engine = Engine.create();
 	world = engine.world;
-	box1 = new Box (600,650,200,20);
-    box2 = new Box (510,600,20,120,);
-	box3 = new Box (690,600,20,120,);
+	box1 = new Box (600,680,200,20);
+    box2 = new Box (510,630,20,120,);
+	box3 = new Box (690,630,20,120,);
 	paper = new Paper(60,200,30,30)
 	ground = new Ground (400,height,800,20)	
 
